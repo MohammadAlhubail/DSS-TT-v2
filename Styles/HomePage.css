@@ -1,0 +1,33 @@
+.header-sec-main {
+  display: flex;
+}
+
+.header-sec {
+  background-color: #333;
+  width: 50%;
+  height: 60px;
+  margin: 0px 10px;
+  position: relative;
+  z-index: -1;
+  top: 80px;
+}
+
+.header-sec h1 {
+  color: white;
+  text-align: center;
+  line-height: 60px;
+}
+
+.header-sec-h1-textbox {
+  margin: 10px auto;
+  width: 90%;
+  background-color: gray;
+}
+
+.header-sec p,
+.header-sec-ul-li li {
+  color: black;
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+}

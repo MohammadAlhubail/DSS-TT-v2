@@ -1,0 +1,62 @@
+.header-sec {
+  background-color: rgb(49, 49, 51);
+  background-color: whitesmoke;
+  display: flex;
+  margin: 10px auto;
+  position: sticky;
+  top: 80px;
+  width: 80%;
+  justify-content: center;
+}
+
+.header-sec-container-main h1 {
+  padding: 20px 0px;
+  /* color: white; */
+  color: black;
+  font-size: 30px;
+  display: inline-block;
+}
+
+.header-sec-container {
+  /* background-color: gray; */
+  background-color: whitesmoke;
+  width: 70%;
+  margin: 0px auto;
+  position: relative;
+  z-index: -1;
+  top: 100px;
+}
+
+.header-sec-container-textp {
+  display: block;
+  color: black;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px 20px;
+}
+
+.header-sec-container-text-sub {
+  line-height: 30px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.header-sec-container ul li {
+  list-style: none;
+  line-height: 30px;
+  padding: 4px 50px;
+  font-size: 18px;
+}
+
+.header-sec-container-text-sub a {
+  color: lightcoral;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.header-sec-container-text-sub a:hover {
+  color: darkblue;
+}

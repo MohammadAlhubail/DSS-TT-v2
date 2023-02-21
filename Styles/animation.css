@@ -3,6 +3,7 @@
     background-color: blue;
     left: 92%;
     top: 100px;
+    transform: rotate(0deg);
   }
   25% {
     background-color: red;
@@ -23,6 +24,7 @@
     background-color: blue;
     left: 92%;
     top: 100px;
+    transform: rotate(360deg);
   }
 }
 @keyframes I-1 {
@@ -30,6 +32,7 @@
     background-color: red;
     left: 2%;
     top: 100px;
+    transform: rotate(0deg);
   }
   25% {
     background-color: blue;
@@ -50,13 +53,6 @@
     background-color: red;
     left: 2%;
     top: 100px;
-  }
-}
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
     transform: rotate(360deg);
   }
 }

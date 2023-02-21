@@ -71,7 +71,7 @@
 }
 
 .cube {
-  animation-name: I-2, spin;
+  animation-name: I-2;
   animation-delay: 0s, 0s, 0s;
   animation-duration: 10s, 0s, 5s;
 }
@@ -80,7 +80,7 @@
   position: absolute;
   left: 2%;
   top: 100px;
-  animation-name: I-1, spin;
+  animation-name: I-1;
   animation-delay: 5s, 0s, 0s;
   animation-duration: 10s, 0s, 5s;
 }

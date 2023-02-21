@@ -22,44 +22,39 @@
 }
 @keyframes I-2-color {
   0% {
-    background-color: red;
+    background-color: blue;
   }
   25% {
-    background-color: blue;
+    background-color: red;
   }
   50% {
-    background-color: red;
-  }
-  75% {
     background-color: blue;
   }
-  100% {
+  75% {
     background-color: red;
+  }
+  100% {
+    background-color: blue;
   }
 }
 @keyframes I-1 {
   0% {
-    background-color: red;
     left: 2%;
     top: 100px;
   }
   25% {
-    background-color: blue;
     left: 2%;
     top: 100px;
   }
   50% {
-    background-color: red;
     left: 2%;
     top: 80%;
   }
   75% {
-    background-color: blue;
     left: 2%;
     top: 80%;
   }
   100% {
-    background-color: red;
     left: 2%;
     top: 100px;
   }

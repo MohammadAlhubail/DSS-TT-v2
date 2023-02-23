@@ -1,18 +1,12 @@
 html {
   height: 100vh;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom right,
     lightsteelblue 0%,
     lightblue 50%,
     lightsteelblue 100%
-  );
-  /* background: rgb(185, 134, 187); */
-  /* background: linear-gradient(
-    90deg,
-    rgb(95, 51, 97) 0%,
-    rgba(9, 9, 121, 1) 54%,
-    rgba(40, 115, 131, 1) 100%
   ); */
+  background: #f8f8f8;
 }
 
 a {

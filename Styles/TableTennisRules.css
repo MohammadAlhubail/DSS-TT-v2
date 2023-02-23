@@ -1,6 +1,5 @@
 .header-sec {
-  background-color: rgb(49, 49, 51);
-  background-color: whitesmoke;
+  background-color: lightblue;
   display: flex;
   margin: 10px auto;
   position: sticky;
@@ -11,15 +10,13 @@
 
 .header-sec-container-main h1 {
   padding: 20px 0px;
-  /* color: white; */
   color: black;
   font-size: 30px;
   display: inline-block;
 }
 
 .header-sec-container {
-  /* background-color: gray; */
-  background-color: whitesmoke;
+  background-color: lightgreen;
   width: 70%;
   margin: 0px auto;
   position: relative;

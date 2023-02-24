@@ -413,9 +413,11 @@ figure {
   -ms-border-radius: 5px;
   margin-top: 25px;
   cursor: pointer;
+  transition: 0.5s;
 }
 .form-submit:hover {
   background: #4292dc;
+  font-size: 18px;
 }
 
 #signin {
@@ -434,7 +436,7 @@ figure {
 
 .signup-image-link:hover {
   background-color: lightcoral;
-  font-size: 23px;
+  font-size: 22px;
   opacity: 1px;
 }
 

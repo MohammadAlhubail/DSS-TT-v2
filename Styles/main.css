@@ -9,16 +9,14 @@
 
 html {
   height: 100vh;
+  /* background-image: linear-gradient(
+    to bottom right,
+    lightsteelblue 0%,
+    lightblue 50%,
+    lightsteelblue 100%
+  ); */
   background: #f8f8f8;
   scroll-behavior: smooth;
-  animation: background-pan 10s linear infinite;
-  background: linear-gradient(
-    to right,
-    rgb(98, 65, 145, 0.8),
-    rgb(145, 43, 78, 0.8),
-    rgb(98, 65, 145, 0.8)
-  );
-  background-size: 200%;
 }
 
 a {
@@ -28,14 +26,8 @@ a {
 }
 
 .header-main {
-  animation: background-pan 10s linear infinite;
-  background: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.3)
-  );
-  background-size: 200%;
+  background: rgb(185, 134, 187);
+  background-image: linear-gradient(to bottom right, #03045e, #0096c7);
   display: flex;
   position: fixed;
   top: 0;

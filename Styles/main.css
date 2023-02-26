@@ -9,12 +9,6 @@
 
 html {
   height: 100vh;
-  /* background-image: linear-gradient(
-    to bottom right,
-    lightsteelblue 0%,
-    lightblue 50%,
-    lightsteelblue 100%
-  ); */
   background: #f8f8f8;
   scroll-behavior: smooth;
 }
@@ -38,7 +32,6 @@ a {
 }
 
 .header-main-logo {
-  /* background-color: yellow; */
   width: fit-content;
   height: 100%;
   padding-left: 20px;
@@ -57,7 +50,6 @@ a {
 }
 
 .header-main-nav {
-  /* background-color: blue; */
   width: fit-content;
   height: 100%;
   overflow: hidden;
@@ -88,7 +80,6 @@ a {
 }
 
 .header-main-signup {
-  /* background-color: red; */
   width: fit-content;
   height: 100%;
   padding-right: 30px;

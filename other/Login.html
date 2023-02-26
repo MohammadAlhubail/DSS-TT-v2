@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dwight Table Tennis</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="Styles/reset.css" />
+    <link rel="stylesheet" href="Styles/main.css" />
+    <link rel="stylesheet" href="Styles/login.css" />
+  </head>
+  <body>
+    <header class="header-main">
+      <div class="header-main-logo">
+        <a href="index.html"> <img src="images/logo.png" /></a>
+        <nav class="header-main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="TableTennisRules.html">Table Tennis Rules</a></li>
+            <li><a href="Leaderboard.html">Leaderboard</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-main-signup">
+        <ul>
+          <li><a href="Signup.html">Signup</a></li>
+          <li><a href="Login.html">Login</a></li>
+        </ul>
+      </div>
+    </header>
+    <header class="container">
+      <div class="container-head-box">
+        <div class="container-head">
+          <p>Login</p>
+        </div>
+      </div>
+
+      <div class="info-container-box">
+        <form class="signup-form" method="POST">
+          <div class="form-group">
+            <label class="form-group-lable" for="unername"
+              ><p>Username</p></label
+            >
+            <input type="text" id="email" name="email" placeholder="Username" />
+          </div>
+          <div class="form-group">
+            <label class="form-group-lable" for="password"
+              ><p>Password</p></label
+            >
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <button type="submit" name="submit" class="submit-btn">
+              Login
+            </button>
+          </div>
+        </form>
+        <div>
+          <p
+            style="
+              margin-top: 20px;
+              font-size: 20px;
+              color: rgba(0, 0, 139);
+              font-family: Georgia, 'Times New Roman', Times, serif;
+            "
+          >
+            OR
+          </p>
+        </div>
+        <div class="container-signup-btn">
+          <a class="container-signup-btn-p" onclick="googleLogin()">
+            login using Google
+          </a>
+        </div>
+      </div>
+    </header>
+    <script src="JavaScript/login.js"></script>
+  </body>
+</html>

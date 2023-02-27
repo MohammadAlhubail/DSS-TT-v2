@@ -11,36 +11,3 @@ function googleLogin() {
     "&response_type=token&scope=openid%20email%20profile";
   window.location.href = url;
 }
-
-// Email Login
-const form = document.querySelector("form");
-const emailInput = document.querySelector("#email");
-const passwordInput = document.querySelector("#password");
-const repeatPasswordInput = document.querySelector("#repeat-password");
-
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
-
-  const email = emailInput.value;
-  const password = passwordInput.value;
-  const repeatPassword = repeatPasswordInput.value;
-
-  if (
-    email.trim() === "" ||
-    password.trim() === "" ||
-    repeatPassword.trim() === ""
-  ) {
-    alert("Please fill in all fields.");
-    return;
-  }
-
-  if (password !== repeatPassword) {
-    alert("Passwords do not match.");
-    return;
-  }
-
-  // TODO: Add code to submit form to server
-
-  let sp = " ";
-  console.log(email + sp + password);
-});

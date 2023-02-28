@@ -68,6 +68,7 @@
   animation-duration: 10s;
   animation-iteration-count: infinite;
   border-radius: 50px;
+  font-family: "Modern Sans", sans-serif;
 }
 
 .cube {

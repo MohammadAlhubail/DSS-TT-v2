@@ -5,6 +5,8 @@
   position: sticky;
   top: 80px;
   width: 80%;
+  font-family: "Modern Sans", sans-serif;
+
   justify-content: center;
 }
 
@@ -29,13 +31,16 @@
   color: black;
   font-size: 20px;
   line-height: 30px;
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: "Modern Sans", sans-serif;
+
   padding: 20px 20px;
 }
 
 .header-sec-container-text-sub {
   line-height: 30px;
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: "Modern Sans", sans-serif;
   padding: 10px 20px;
   font-size: 20px;
 }

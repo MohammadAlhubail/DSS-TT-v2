@@ -62,3 +62,20 @@
 .header-sec-container-text-sub a:hover {
   color: darkblue;
 }
+
+.button-cube {
+  visibility: hidden;
+}
+
+.button {
+  width: 1px;
+  height: 1px;
+  font-size: 1px;
+}
+
+.btn-btn {
+  width: 1px;
+  height: 1px;
+  font-size: 1px;
+  opacity: 0;
+}

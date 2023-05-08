@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="Styles/reset.css" />
     <link rel="stylesheet" href="Styles/main.css" />
     <link rel="stylesheet" href="Styles/TableTennisTournament2023.css" />
+    <script>
+      function updateIframeSrc(src) {
+        var iframe = document.getElementById("sheet-iframe");
+        iframe.src = src;
+      }
+    </script>
   </head>
   <body>
     <header class="header-main">
@@ -34,9 +40,28 @@
     </header>
     <div class="sheet-container">
       <iframe
+        id="sheet-iframe"
         class="sheet-iframe"
-        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1NyCcTqDVkqGndWcV2nujgvSDoe-0irVrIPAUcdWPval4TkLqTmeltXXRHCO97N0EgjYLtpZGtXPa/pubhtml?widget=true&amp;headers=false"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1NyCcTqDVkqGndWcV2nujgvSDoe-0irVrIPAUcdWPval4TkLqTmeltXXRHCO97N0EgjYLtpZGtXPa/pubhtml?gid=131414068&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"
+      ></iframe>
+
+      <iframe
+        id="sheet-iframe"
+        class="sheet-iframe"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1NyCcTqDVkqGndWcV2nujgvSDoe-0irVrIPAUcdWPval4TkLqTmeltXXRHCO97N0EgjYLtpZGtXPa/pubhtml?gid=1318541810&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"
+      ></iframe>
+      <iframe
+        id="sheet-iframe"
+        class="sheet-iframe"
+        style="height: 500px"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1NyCcTqDVkqGndWcV2nujgvSDoe-0irVrIPAUcdWPval4TkLqTmeltXXRHCO97N0EgjYLtpZGtXPa/pubhtml?gid=1846704558&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"
       ></iframe>
     </div>
+    <script>
+      function sheet(src) {
+        let iframe = document.getElementById("sheet-iframe");
+        iframe.src = src;
+      }
+    </script>
   </body>
 </html>

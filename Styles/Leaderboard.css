@@ -59,3 +59,21 @@ tr:nth-child(even) {
 .edit-button:hover {
   background-color: #0069d9;
 }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.sheet-container {
+  height: 100%;
+}
+
+.sheet-iframe {
+  padding-top: 80px;
+  width: 100%;
+  height: 1080px;
+  border: none;
+}
